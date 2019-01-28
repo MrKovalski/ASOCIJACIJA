@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Asocijacija</title>
+
+	<!-- styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/saraCSS.css"> -->
+	<link rel="stylesheet" href="css/normalCSS.css">
+</head>
+<body>
+
+	<!-- div.container-fluid>(div.row>(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#a1{A1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#b1{B1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#c1{C1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#d1{D1}))+(div.row>(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#a1{A1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#b1{B1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#c1{C1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#d1{D1}))+(div.row>(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#a1{A1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#b1{B1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#c1{C1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#d1{D1}))+(div.row>(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#a1{A1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#b1{B1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#c1{C1})+(div.col-lg-3>button.btn.btn-warning.btn-lg.text-uppercase#d1{D1})) -->
+	
+	<h1 class="text-center text-uppercase"><a href="index.html"><button class="btn btn-dark">Početna</button></a>  Asocijacija</h1>
+	<div class="container-fluid" id="polja">
+		<div class="row">
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="a1" onclick="otkrij('a1', a1)">A1</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="b1" onclick="otkrij('b1', b1)">B1</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="c1" onclick="otkrij('c1', c1)">C1</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="d1" onclick="otkrij('d1', d1)">D1</button></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="a2" onclick="otkrij('a2', a2)">A2</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="b2" onclick="otkrij('b2', b2)">B2</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="c2" onclick="otkrij('c2', c2)">C2</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="d2" onclick="otkrij('d2', d2)">D2</button></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="a3" onclick="otkrij('a3', a3)">A3</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="b3" onclick="otkrij('b3', b3)">B3</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="c3" onclick="otkrij('c3', c3)">C3</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="d3" onclick="otkrij('d3', d3)">D3</button></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="a4" onclick="otkrij('a4', a4)">A4</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="b4" onclick="otkrij('b4', b4)">B4</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="c4" onclick="otkrij('c4', c4)">C4</button></div>
+			<div class="col-lg-3"><button class="btn btn-primary btn-lg text-uppercase" id="d4" onclick="otkrij('d4', d4)">D4</button></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3"><button class="btn btn-danger btn-lg text-uppercase" id="resenjeA" onclick="pogodi('resenjeA', resenje_a)">rešenje A</button></div>
+			<div class="col-lg-3"><button class="btn btn-danger btn-lg text-uppercase" id="resenjeB" onclick="pogodi('resenjeB', resenje_b)">rešenje b</button></div>
+			<div class="col-lg-3"><button class="btn btn-danger btn-lg text-uppercase" id="resenjeC" onclick="pogodi('resenjeC', resenje_c)">rešenje c</button></div>
+			<div class="col-lg-3"><button class="btn btn-danger btn-lg text-uppercase" id="resenjeD" onclick="pogodi('resenjeD', resenje_d)">rešenje d</button></div>
+		</div>
+		<div class="row">
+			<div class="btn btn-success btn-lg text-uppercase text-center" id="konacno" onclick="pogodi('konacno', konacno)">konačno</div>
+		</div>
+	</div>
+
+
+
+<!-- scripts -->
+<script src="js/jQuery.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
